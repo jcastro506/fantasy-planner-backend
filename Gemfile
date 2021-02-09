@@ -45,3 +45,5 @@ gem "active_model_serializers", "~> 0.10.12"
 gem "faker", "~> 2.15"
 
 gem 'rest-client'
+
+gem 'activerecord-reset-pk-sequence'

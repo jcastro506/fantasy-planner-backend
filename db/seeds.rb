@@ -15,6 +15,12 @@ User.destroy_all
 Team.destroy_all
 TeamBuilder.destroy_all
 Player.destroy_all
+User.reset_pk_sequence
+Team.reset_pk_sequence
+TeamBuilder.reset_pk_sequence
+Player.reset_pk_sequence
+
+
 
 puts "Destroying everything"
 puts "Seeding everything..."
