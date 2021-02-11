@@ -27,6 +27,11 @@ class TeamBuildersController < ApplicationController
         render json: team_builder
     end 
 
+    def destroy
+        team_builder = TeamBuilder.find(params[:id])
+        team_builder.delete
+        render json: team_builder
+    end 
 
     private
 
