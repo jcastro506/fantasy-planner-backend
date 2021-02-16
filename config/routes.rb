@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :players, only: [:show, :index]
+  resources :players, only: [:show, :index, :destroy]
 
   resources :users, only: [:show, :index, :create, :new]
 
